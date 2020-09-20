@@ -1,20 +1,46 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API test script</title>
+</head>
 
+<body>
+
+<form action="/php-test-1/index.php" method="post">
+    <label for="id">Enter ID:</label>
+    <input type="text" name="id">
+    <button type="submit" value="Submit">Submit</button>
+</form>
+
+<?php
+use GuzzleHttp\Exception\GuzzleException;
 require 'vendor/autoload.php';
 
-$client = new GuzzleHttp\Client([
-    'base_uri' => 'https://jsonplaceholder.typicode.com'
-//    'base_uri' => 'https://google.com'
-]);
+if(isset($_POST['id'])) {
 
-$response = $client->request('GET', '/posts/1');
+    $client = new GuzzleHttp\Client([
+        'base_uri' => 'https://jsonplaceholder.typicode.com'
+    ]);
 
-if($response->getStatusCode() == 200)
-    echo $response->getBody();
-else {
-    echo 'fail';
+    $wanted = $_REQUEST['id'];
+
+    try {
+        $response = $client->request('GET', '/posts/' . $wanted);
+        $result = json_decode($response->getBody());
+
+        echo '<br>';
+        echo 'Title: ' . $result->title . '<br>';
+        echo 'Body: ' . $result->body;
+
+    }
+    catch (GuzzleException $e) {
+        exit('fail');
+    }
 }
-
+else {
+    echo '<br> No data!';
+}
 
 /*
 // create curl resource
@@ -35,4 +61,9 @@ echo $output;
 curl_close($ch);
 
 */
+
+
 ?>
+
+</body>
+</html>
