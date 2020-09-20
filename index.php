@@ -7,9 +7,9 @@
 
 <body>
 
-<form action="/php-test-1/index.php" method="post">
+<form action="/php-test-1/index.php" method="post" >
     <label for="id">Enter ID:</label>
-    <input type="text" name="id">
+    <input type="text" name="id" required>
     <button type="submit" value="Submit">Submit</button>
 </form>
 
