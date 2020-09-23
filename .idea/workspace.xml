@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abf2b738-8b84-4c1d-bbb8-98f8b275d778" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdvRretAPI.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvanceRetailConnector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guzzletest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guzzletest.php" beforeDir="false" afterPath="$PROJECT_DIR$/guzzletest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <workItem from="1600317728766" duration="3274000" />
       <workItem from="1600414220306" duration="607000" />
       <workItem from="1600557514168" duration="4728000" />
-      <workItem from="1600827985736" duration="6963000" />
+      <workItem from="1600827985736" duration="8420000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1600340047533</created>
@@ -96,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600561052652</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="required input">
+      <created>1600853135391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600853135392</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,10 +120,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2587" y="162" key="#PHP/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600211564774" />
-    <state x="2505" y="87" key="CommitChangelistDialog2" timestamp="1600561052188">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2544" y="93" key="CommitChangelistDialog2" timestamp="1600853134318">
+      <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2505" y="87" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600561052188" />
+    <state x="2544" y="93" key="CommitChangelistDialog2/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1600853134318" />
     <state x="2704" y="421" width="540" height="205" key="Github.ShareDialog" timestamp="1600319267307">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -138,9 +142,10 @@
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600828024666" />
     <state x="2767" y="474" key="NewPhpFileDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1600851239820" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600561060139">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2509" y="269" key="Vcs.Push.Dialog.v2" timestamp="1600853147178">
+      <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600561060139" />
+    <state x="2509" y="269" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1600853147178" />
   </component>
 </project>
