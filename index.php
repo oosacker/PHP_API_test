@@ -30,12 +30,12 @@ if(isset($_POST['id'])) {
         $result = json_decode($response->getBody());
 
         echo '<br>';
-        echo 'Title: ' . $result->title . '<br>';
+        echo '<large>Title: ' . '<i>' . $result->title . '</i>' . '<br></large>';
         echo 'Body: ' . $result->body;
 
     }
     catch (GuzzleException $e) {
-        exit('fail');
+        echo '<br> Could not load data from API';
     }
 }
 else {

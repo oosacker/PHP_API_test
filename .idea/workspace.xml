@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abf2b738-8b84-4c1d-bbb8-98f8b275d778" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AdvRretAPI.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvanceRetailConnector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guzzletest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +55,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\apple\PhpstormProjects\php-test-1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +72,8 @@
       <workItem from="1600211473445" duration="1046000" />
       <workItem from="1600317728766" duration="3274000" />
       <workItem from="1600414220306" duration="607000" />
-      <workItem from="1600557514168" duration="3448000" />
+      <workItem from="1600557514168" duration="4728000" />
+      <workItem from="1600827985736" duration="6963000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1600340047533</created>
@@ -78,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600560907377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="required input">
+      <created>1600561052652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600561052652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <MESSAGE value="add some form controls" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some form controls" />
+    <MESSAGE value="required input" />
+    <option name="LAST_COMMIT_MESSAGE" value="required input" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2406" y="239" key="#CLI_Interpreters" timestamp="1600211557578">
@@ -98,10 +117,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2587" y="162" key="#PHP/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600211564774" />
-    <state x="2505" y="87" key="CommitChangelistDialog2" timestamp="1600560906904">
+    <state x="2505" y="87" key="CommitChangelistDialog2" timestamp="1600561052188">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2505" y="87" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600560906904" />
+    <state x="2505" y="87" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600561052188" />
     <state x="2704" y="421" width="540" height="205" key="Github.ShareDialog" timestamp="1600319267307">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -110,13 +129,18 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2677" y="223" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600319296150" />
-    <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1600050872378">
+    <state x="2710" y="279" key="NewPhpClassDialog" timestamp="1600850499319">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2710" y="279" key="NewPhpClassDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1600850499319" />
+    <state x="2767" y="474" key="NewPhpFileDialog" timestamp="1600851239820">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2714" y="443" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600828024666" />
+    <state x="2767" y="474" key="NewPhpFileDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1600851239820" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600561060139">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2714" y="443" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600050872378" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600560912740">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600560912740" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600561060139" />
   </component>
 </project>
